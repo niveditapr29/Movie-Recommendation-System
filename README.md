@@ -1,5 +1,4 @@
 # Movie-Recommendation-System
-Movie recommendation system using NLP, TF-IDF and Cosine similarity.
 Aim: This project aims to build a movie recommendation system using machine learning (ML) algorithms, specifically focusing on natural language processing (NLP) techniques like TF-IDF (Term Frequency-Inverse Document Frequency) and cosine similarity. The system suggests top movie recommendations based on a given movie's features, such as genres, keywords, popularity, tagline, and director. This system uses Flask as a web framework to create a user-friendly interface.
 Steps involved:
 1.	Data Collection and Pre-Processing
