@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Movie Recommendations</title>
+</head>
+<body>
+    <div class="results-container">
+        <div class="results-box">
+            <h1>Your Top 10 Movie Recommendations</h1>
+            <ul>
+                {% for recommendation in recommendations %}
+                <li>{{ recommendation }}</li>
+                {% endfor %}
+            </ul>
+            <a href="/" class="back-btn">Go Back</a>
+        </div>
+    </div>
+</body>
+</html>
